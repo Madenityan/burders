@@ -1,0 +1,37 @@
+/* line 1, ../../sass/layout/common-styles.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, ../../sass/layout/common-styles.scss */
+.container {
+  margin: 0 auto;
+  width: 1130px;
+}
+
+/* line 10, ../../sass/layout/common-styles.scss */
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 56px 56px 56px 56px;
+  -moz-border-radius: 56px 56px 56px 56px;
+  -webkit-border-radius: 56px 56px 56px 56px;
+}
+
+/* line 18, ../../sass/layout/common-styles.scss */
+.header {
+  font: 100% 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+/* line 23, ../../sass/layout/common-styles.scss */
+.paragraph {
+  font: 100% 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+/* line 28, ../../sass/layout/common-styles.scss */
+.header-2 {
+  font: 100% 'Roboto Slab', serif;
+  font-weight: bold;
+}

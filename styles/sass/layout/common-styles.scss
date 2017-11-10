@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1130px;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 56px 56px 56px 56px;
+  -moz-border-radius: 56px 56px 56px 56px;
+  -webkit-border-radius: 56px 56px 56px 56px;
+}
+
+.header {
+  font: 100% 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+.paragraph {
+  font: 100% 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.header-2 {
+  font: 100% 'Roboto Slab', serif;
+  font-weight: bold;
+}
