@@ -8,14 +8,13 @@
   h2 {
     font-size: 30px;
     color: $color-text;
-    margin-bottom: 20px;
   }
 
   p {
     color: $color-text;
     line-height: 25px;
     margin: 45px auto;
-    width: 530px;
+    max-width: 530px;
   }
 }
 

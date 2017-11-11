@@ -1,0 +1,360 @@
+@media screen and (max-width: 599px) {
+  /* line 2, ../sass/media-queries.scss */
+  .container {
+    width: 320px;
+  }
+
+  /* line 5, ../sass/media-queries.scss */
+  .main-header {
+    display: flex;
+    padding: 10px 0 10px;
+  }
+
+  /* line 10, ../sass/media-queries.scss */
+  img {
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+  }
+
+  /* line 17, ../sass/media-queries.scss */
+  .list-menu {
+    display: block;
+    margin-top: 0;
+  }
+  /* line 21, ../sass/media-queries.scss */
+  .list-menu li {
+    display: block;
+    padding: 5px;
+    margin-right: 45px;
+  }
+  /* line 27, ../sass/media-queries.scss */
+  .list-menu li:hover {
+    text-align: center;
+  }
+  /* line 31, ../sass/media-queries.scss */
+  .list-menu a {
+    font-size: 13px;
+  }
+
+  /* line 36, ../sass/media-queries.scss */
+  .welcome-section {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: auto;
+  }
+  /* line 42, ../sass/media-queries.scss */
+  .welcome-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  /* line 47, ../sass/media-queries.scss */
+  .welcome-section span {
+    font-size: 15px;
+  }
+
+  /* line 52, ../sass/media-queries.scss */
+  .header-welcome-section {
+    margin-bottom: 15px;
+  }
+
+  /* line 56, ../sass/media-queries.scss */
+  .list-burgers {
+    margin-bottom: 15px;
+  }
+  /* line 59, ../sass/media-queries.scss */
+  .list-burgers img {
+    height: 80px;
+    width: 80px;
+    border: 2px solid #ffffff;
+  }
+  /* line 66, ../sass/media-queries.scss */
+  .list-burgers li {
+    margin-right: 20px;
+  }
+  /* line 70, ../sass/media-queries.scss */
+  .list-burgers h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  /* line 75, ../sass/media-queries.scss */
+  .list-burgers p {
+    line-height: 10px;
+    font-size: 10px;
+  }
+
+  /* line 81, ../sass/media-queries.scss */
+  .button-section {
+    padding: 10px 25px;
+    font-size: 10px;
+  }
+
+  /* line 86, ../sass/media-queries.scss */
+  .news {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  /* line 90, ../sass/media-queries.scss */
+  .news h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* line 97, ../sass/media-queries.scss */
+  .list-news li {
+    margin-right: 10px;
+  }
+  /* line 101, ../sass/media-queries.scss */
+  .list-news img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  /* line 107, ../sass/media-queries.scss */
+  .list-news h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  /* line 112, ../sass/media-queries.scss */
+  .list-news p {
+    line-height: 10px;
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  /* line 118, ../sass/media-queries.scss */
+  .list-news .button-news {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+
+  /* line 123, ../sass/media-queries.scss */
+  .newsletter {
+    padding-top: 20px;
+  }
+  /* line 126, ../sass/media-queries.scss */
+  .newsletter h2 {
+    font-size: 20px;
+  }
+  /* line 130, ../sass/media-queries.scss */
+  .newsletter p {
+    margin: 20px auto;
+    line-height: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  /* line 137, ../sass/media-queries.scss */
+  .subscription {
+    padding-bottom: 30px;
+  }
+  /* line 140, ../sass/media-queries.scss */
+  .subscription input {
+    width: 171px;
+    line-height: 25px;
+    padding-left: 10px;
+    font-size: 10px;
+    font-weight: normal;
+  }
+  /* line 148, ../sass/media-queries.scss */
+  .subscription button {
+    width: 100px;
+    line-height: 25px;
+    font-size: 10px;
+  }
+
+  /* line 155, ../sass/media-queries.scss */
+  .product {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 159, ../sass/media-queries.scss */
+  .product .wrapper {
+    margin: 10px;
+    width: auto;
+  }
+  /* line 164, ../sass/media-queries.scss */
+  .product h3 {
+    margin-bottom: 10px;
+  }
+  /* line 168, ../sass/media-queries.scss */
+  .product p {
+    font-size: 10px;
+    margin-bottom: 10px;
+    line-height: 10px;
+  }
+
+  /* line 176, ../sass/media-queries.scss */
+  .product-list li {
+    display: inline-block;
+  }
+  /* line 180, ../sass/media-queries.scss */
+  .product-list img {
+    display: none;
+  }
+  /* line 183, ../sass/media-queries.scss */
+  .product-list .button-product {
+    padding: 10px 25px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* line 190, ../sass/media-queries.scss */
+  .footer-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* line 196, ../sass/media-queries.scss */
+  .list-services a {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  /* line 201, ../sass/media-queries.scss */
+  .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  /* line 204, ../sass/media-queries.scss */
+  .footer-bottom p {
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  /* line 213, ../sass/media-queries.scss */
+  .container {
+    width: 600px;
+  }
+
+  /* line 217, ../sass/media-queries.scss */
+  .welcome-section {
+    height: auto;
+    align-items: baseline;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* line 224, ../sass/media-queries.scss */
+  .main-header {
+    display: block;
+    padding: 20px 0 20px;
+  }
+
+  /* line 229, ../sass/media-queries.scss */
+  .menu {
+    padding-top: 10px;
+  }
+
+  /* line 233, ../sass/media-queries.scss */
+  .list-menu {
+    margin-top: 0;
+  }
+  /* line 236, ../sass/media-queries.scss */
+  .list-menu li {
+    padding: 5px;
+    margin-right: 55px;
+  }
+  /* line 241, ../sass/media-queries.scss */
+  .list-menu a {
+    font-size: 13px;
+  }
+
+  /* line 246, ../sass/media-queries.scss */
+  .header-welcome-section {
+    margin-bottom: 50px;
+  }
+  /* line 249, ../sass/media-queries.scss */
+  .header-welcome-section h2 {
+    font-size: 40px;
+  }
+
+  /* line 254, ../sass/media-queries.scss */
+  .list-burgers {
+    margin-bottom: 35px;
+  }
+  /* line 257, ../sass/media-queries.scss */
+  .list-burgers img {
+    border: 3px solid #ffffff;
+  }
+
+  /* line 262, ../sass/media-queries.scss */
+  .button-section {
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+
+  /* line 267, ../sass/media-queries.scss */
+  .news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  /* line 271, ../sass/media-queries.scss */
+  .news h2 {
+    margin-bottom: 40px;
+  }
+
+  /* line 278, ../sass/media-queries.scss */
+  .list-news img {
+    width: 200px;
+    height: 137px;
+  }
+
+  /* line 284, ../sass/media-queries.scss */
+  .newsletter {
+    padding-top: 50px;
+  }
+
+  /* line 288, ../sass/media-queries.scss */
+  .subscription {
+    padding-bottom: 70px;
+  }
+
+  /* line 292, ../sass/media-queries.scss */
+  .product {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  /* line 298, ../sass/media-queries.scss */
+  .wrapper {
+    width: 400px;
+    margin: 0 20px 20px 20px;
+    text-align: justify;
+  }
+  /* line 303, ../sass/media-queries.scss */
+  .wrapper h3 {
+    margin-bottom: 0;
+  }
+  /* line 307, ../sass/media-queries.scss */
+  .wrapper p {
+    margin-bottom: 10px;
+  }
+
+  /* line 312, ../sass/media-queries.scss */
+  .image-list {
+    width: 300px;
+    height: 203px;
+  }
+
+  /* line 317, ../sass/media-queries.scss */
+  .button-product {
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+
+  /* line 322, ../sass/media-queries.scss */
+  .footer-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* line 327, ../sass/media-queries.scss */
+  .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 130px;
+  }
+}

@@ -65,7 +65,7 @@ table {
 /* line 5, ../sass/layout/common-styles.scss */
 .container {
   margin: 0 auto;
-  width: 1130px;
+  max-width: 1130px;
 }
 
 /* line 10, ../sass/layout/common-styles.scss */
@@ -125,8 +125,9 @@ table {
 /* line 25, ../sass/layout/_header.scss */
 .list-menu li:last-child {
   margin-right: 0;
+  padding-right: 0;
 }
-/* line 29, ../sass/layout/_header.scss */
+/* line 30, ../sass/layout/_header.scss */
 .list-menu li:hover {
   border-radius: 70px 70px 70px 70px;
   -moz-border-radius: 70px 70px 70px 70px;
@@ -134,13 +135,13 @@ table {
   background-color: #dd4b2b;
   transition: background-color 1000ms;
 }
-/* line 37, ../sass/layout/_header.scss */
+/* line 38, ../sass/layout/_header.scss */
 .list-menu a {
   text-decoration: none;
   font-size: 15px;
   color: #31353e;
 }
-/* line 42, ../sass/layout/_header.scss */
+/* line 43, ../sass/layout/_header.scss */
 .list-menu a:hover {
   color: #edeff1;
 }
@@ -301,21 +302,20 @@ table {
 .newsletter h2 {
   font-size: 30px;
   color: #ffffff;
-  margin-bottom: 20px;
 }
-/* line 14, ../sass/layout/sections/newsletter-section.scss */
+/* line 13, ../sass/layout/sections/newsletter-section.scss */
 .newsletter p {
   color: #ffffff;
   line-height: 25px;
   margin: 45px auto;
-  width: 530px;
+  max-width: 530px;
 }
 
-/* line 22, ../sass/layout/sections/newsletter-section.scss */
+/* line 21, ../sass/layout/sections/newsletter-section.scss */
 .subscription {
   padding-bottom: 100px;
 }
-/* line 25, ../sass/layout/sections/newsletter-section.scss */
+/* line 24, ../sass/layout/sections/newsletter-section.scss */
 .subscription input {
   width: 300px;
   line-height: 40px;
@@ -329,7 +329,7 @@ table {
   -moz-border-radius: 56px 0 0 56px;
   -webkit-border-radius: 56px 0 0 56px;
 }
-/* line 39, ../sass/layout/sections/newsletter-section.scss */
+/* line 38, ../sass/layout/sections/newsletter-section.scss */
 .subscription button {
   width: 210px;
   line-height: 40px;
@@ -341,7 +341,7 @@ table {
   outline: none;
 }
 
-/* line 51, ../sass/layout/sections/newsletter-section.scss */
+/* line 50, ../sass/layout/sections/newsletter-section.scss */
 ::-webkit-input-placeholder {
   font: 100% 'Roboto Slab', serif;
   color: #ffffff;
@@ -381,7 +381,7 @@ table {
 }
 /* line 31, ../sass/layout/sections/product.scss */
 .wrapper p {
-  color: #31353e;
+  color: #000000;
   line-height: 25px;
   margin-bottom: 40px;
 }

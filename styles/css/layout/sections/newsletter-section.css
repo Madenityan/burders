@@ -8,11 +8,11 @@ Error: Undefined variable: "$color-text".
 8:   h2 {
 9:     font-size: 30px;
 10:     color: $color-text;
-11:     margin-bottom: 20px;
-12:   }
-13: 
-14:   p {
-15:     color: $color-text;
+11:   }
+12: 
+13:   p {
+14:     color: $color-text;
+15:     line-height: 25px;
 
 Backtrace:
 C:/Users/haltaction/Desktop/home work/burger/styles/sass/layout/sections/newsletter-section.scss:10
@@ -78,4 +78,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-text\".\A         on line 10 of C:/Users/haltaction/Desktop/home work/burger/styles/sass/layout/sections/newsletter-section.scss\A \A 5:   text-align: center;\A 6:   padding-top: 90px;\A 7: \A 8:   h2 {\A 9:     font-size: 30px;\A 10:     color: $color-text;\A 11:     margin-bottom: 20px;\A 12:   }\A 13: \A 14:   p {\A 15:     color: $color-text;"; }
+  content: "Error: Undefined variable: \"$color-text\".\A         on line 10 of C:/Users/haltaction/Desktop/home work/burger/styles/sass/layout/sections/newsletter-section.scss\A \A 5:   text-align: center;\A 6:   padding-top: 90px;\A 7: \A 8:   h2 {\A 9:     font-size: 30px;\A 10:     color: $color-text;\A 11:   }\A 12: \A 13:   p {\A 14:     color: $color-text;\A 15:     line-height: 25px;"; }
